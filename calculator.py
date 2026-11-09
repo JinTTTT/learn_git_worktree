@@ -1,3 +1,6 @@
+import math
+
+
 def add(a, b):
     return a + b
 
@@ -14,6 +17,10 @@ def divide(a, b):
 
 def power(a, b):
     return a ** b
+
+
+def sqrt(a):
+    return math.sqrt(a)
 
 
 if __name__ == "__main__":
