@@ -15,6 +15,11 @@ def divide(a, b):
     return a / b
 
 
+def modulo(a, b):
+    """Return the remainder of a divided by b; raise ZeroDivisionError if b is zero."""
+    return a % b
+
+
 def power(a, b):
     return a ** b
 
